@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51FB69231BDB41B300EA0A3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FB69221BDB41B300EA0A3A /* AppDelegate.swift */; };
+		51FB69251BDB41B300EA0A3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FB69241BDB41B300EA0A3A /* ViewController.swift */; };
+		51FB69271BDB41B300EA0A3A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51FB69261BDB41B300EA0A3A /* Images.xcassets */; };
+		51FB692A1BDB41B300EA0A3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51FB69281BDB41B300EA0A3A /* Main.storyboard */; };
+		51FB69361BDB41B300EA0A3A /* FileDeleteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FB69351BDB41B300EA0A3A /* FileDeleteTests.swift */; };
+		51FB69401BDB442B00EA0A3A /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51FB693F1BDB442B00EA0A3A /* Automator.framework */; };
+		51FB69431BDB539800EA0A3A /* DirectoryPopupButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FB69421BDB539800EA0A3A /* DirectoryPopupButtonCell.swift */; };
+		51FB69451BDB589E00EA0A3A /* DirectoryPopupButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FB69441BDB589E00EA0A3A /* DirectoryPopupButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51FB69301BDB41B300EA0A3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51FB69151BDB41B300EA0A3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51FB691C1BDB41B300EA0A3A;
+			remoteInfo = FileDelete;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		51FB691D1BDB41B300EA0A3A /* FileDelete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileDelete.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51FB69211BDB41B300EA0A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51FB69221BDB41B300EA0A3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		51FB69241BDB41B300EA0A3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		51FB69261BDB41B300EA0A3A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		51FB69291BDB41B300EA0A3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		51FB692F1BDB41B300EA0A3A /* FileDeleteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FileDeleteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51FB69341BDB41B300EA0A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51FB69351BDB41B300EA0A3A /* FileDeleteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDeleteTests.swift; sourceTree = "<group>"; };
+		51FB693F1BDB442B00EA0A3A /* Automator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Automator.framework; path = System/Library/Frameworks/Automator.framework; sourceTree = SDKROOT; };
+		51FB69421BDB539800EA0A3A /* DirectoryPopupButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectoryPopupButtonCell.swift; sourceTree = "<group>"; };
+		51FB69441BDB589E00EA0A3A /* DirectoryPopupButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectoryPopupButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51FB691A1BDB41B300EA0A3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51FB69401BDB442B00EA0A3A /* Automator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51FB692C1BDB41B300EA0A3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51FB69141BDB41B300EA0A3A = {
+			isa = PBXGroup;
+			children = (
+				51FB69411BDB444900EA0A3A /* Frameworks */,
+				51FB691F1BDB41B300EA0A3A /* FileDelete */,
+				51FB69321BDB41B300EA0A3A /* FileDeleteTests */,
+				51FB691E1BDB41B300EA0A3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		51FB691E1BDB41B300EA0A3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51FB691D1BDB41B300EA0A3A /* FileDelete.app */,
+				51FB692F1BDB41B300EA0A3A /* FileDeleteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51FB691F1BDB41B300EA0A3A /* FileDelete */ = {
+			isa = PBXGroup;
+			children = (
+				51FB69221BDB41B300EA0A3A /* AppDelegate.swift */,
+				51FB69241BDB41B300EA0A3A /* ViewController.swift */,
+				51FB69261BDB41B300EA0A3A /* Images.xcassets */,
+				51FB69281BDB41B300EA0A3A /* Main.storyboard */,
+				51FB69441BDB589E00EA0A3A /* DirectoryPopupButton.swift */,
+				51FB69421BDB539800EA0A3A /* DirectoryPopupButtonCell.swift */,
+				51FB69201BDB41B300EA0A3A /* Supporting Files */,
+			);
+			path = FileDelete;
+			sourceTree = "<group>";
+		};
+		51FB69201BDB41B300EA0A3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51FB69211BDB41B300EA0A3A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51FB69321BDB41B300EA0A3A /* FileDeleteTests */ = {
+			isa = PBXGroup;
+			children = (
+				51FB69351BDB41B300EA0A3A /* FileDeleteTests.swift */,
+				51FB69331BDB41B300EA0A3A /* Supporting Files */,
+			);
+			path = FileDeleteTests;
+			sourceTree = "<group>";
+		};
+		51FB69331BDB41B300EA0A3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51FB69341BDB41B300EA0A3A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51FB69411BDB444900EA0A3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51FB693F1BDB442B00EA0A3A /* Automator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51FB691C1BDB41B300EA0A3A /* FileDelete */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51FB69391BDB41B300EA0A3A /* Build configuration list for PBXNativeTarget "FileDelete" */;
+			buildPhases = (
+				51FB69191BDB41B300EA0A3A /* Sources */,
+				51FB691A1BDB41B300EA0A3A /* Frameworks */,
+				51FB691B1BDB41B300EA0A3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FileDelete;
+			productName = FileDelete;
+			productReference = 51FB691D1BDB41B300EA0A3A /* FileDelete.app */;
+			productType = "com.apple.product-type.application";
+		};
+		51FB692E1BDB41B300EA0A3A /* FileDeleteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51FB693C1BDB41B300EA0A3A /* Build configuration list for PBXNativeTarget "FileDeleteTests" */;
+			buildPhases = (
+				51FB692B1BDB41B300EA0A3A /* Sources */,
+				51FB692C1BDB41B300EA0A3A /* Frameworks */,
+				51FB692D1BDB41B300EA0A3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51FB69311BDB41B300EA0A3A /* PBXTargetDependency */,
+			);
+			name = FileDeleteTests;
+			productName = FileDeleteTests;
+			productReference = 51FB692F1BDB41B300EA0A3A /* FileDeleteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51FB69151BDB41B300EA0A3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Renzo Bautista";
+				TargetAttributes = {
+					51FB691C1BDB41B300EA0A3A = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					51FB692E1BDB41B300EA0A3A = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 51FB691C1BDB41B300EA0A3A;
+					};
+				};
+			};
+			buildConfigurationList = 51FB69181BDB41B300EA0A3A /* Build configuration list for PBXProject "FileDelete" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 51FB69141BDB41B300EA0A3A;
+			productRefGroup = 51FB691E1BDB41B300EA0A3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51FB691C1BDB41B300EA0A3A /* FileDelete */,
+				51FB692E1BDB41B300EA0A3A /* FileDeleteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51FB691B1BDB41B300EA0A3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51FB69271BDB41B300EA0A3A /* Images.xcassets in Resources */,
+				51FB692A1BDB41B300EA0A3A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51FB692D1BDB41B300EA0A3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51FB69191BDB41B300EA0A3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51FB69251BDB41B300EA0A3A /* ViewController.swift in Sources */,
+				51FB69231BDB41B300EA0A3A /* AppDelegate.swift in Sources */,
+				51FB69451BDB589E00EA0A3A /* DirectoryPopupButton.swift in Sources */,
+				51FB69431BDB539800EA0A3A /* DirectoryPopupButtonCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51FB692B1BDB41B300EA0A3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51FB69361BDB41B300EA0A3A /* FileDeleteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51FB69311BDB41B300EA0A3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51FB691C1BDB41B300EA0A3A /* FileDelete */;
+			targetProxy = 51FB69301BDB41B300EA0A3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		51FB69281BDB41B300EA0A3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51FB69291BDB41B300EA0A3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51FB69371BDB41B300EA0A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		51FB69381BDB41B300EA0A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		51FB693A1BDB41B300EA0A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FileDelete/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		51FB693B1BDB41B300EA0A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FileDelete/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		51FB693D1BDB41B300EA0A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FileDeleteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FileDelete.app/Contents/MacOS/FileDelete";
+			};
+			name = Debug;
+		};
+		51FB693E1BDB41B300EA0A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FileDeleteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FileDelete.app/Contents/MacOS/FileDelete";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51FB69181BDB41B300EA0A3A /* Build configuration list for PBXProject "FileDelete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51FB69371BDB41B300EA0A3A /* Debug */,
+				51FB69381BDB41B300EA0A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51FB69391BDB41B300EA0A3A /* Build configuration list for PBXNativeTarget "FileDelete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51FB693A1BDB41B300EA0A3A /* Debug */,
+				51FB693B1BDB41B300EA0A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		51FB693C1BDB41B300EA0A3A /* Build configuration list for PBXNativeTarget "FileDeleteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51FB693D1BDB41B300EA0A3A /* Debug */,
+				51FB693E1BDB41B300EA0A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51FB69151BDB41B300EA0A3A /* Project object */;
+}
